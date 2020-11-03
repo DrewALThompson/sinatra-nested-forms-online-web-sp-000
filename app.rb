@@ -14,7 +14,7 @@ module FormsLab
     post '/pirates' do
       
       params['pirates']['ships'].each do |ship_data|
-        @
+        @ships = 
       
       @pirates = Pirate.new(params['pirates']['name'], params['pirates']['weight'], params['pirates']['height'])
     end
