@@ -7,8 +7,8 @@ module FormsLab
       erb :new
     end
     
-    get post '/show' do
-      
+    post '/pirates' do
+      @pirates = 
     end
 
   end
