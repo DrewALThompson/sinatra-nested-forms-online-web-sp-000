@@ -1,4 +1,4 @@
-class Ship
+class Ships
   attr_accessor :name, :type, :booty
   
   @@SHIPS = []
