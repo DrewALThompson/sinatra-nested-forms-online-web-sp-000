@@ -8,7 +8,7 @@ module FormsLab
     end
     
     post '/pirates' do
-      @pirates = Pirate.new(params[:])
+      @pirates = Pirate.new(params[:pirate])
     end
 
   end
