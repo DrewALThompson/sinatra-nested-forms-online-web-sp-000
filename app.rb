@@ -17,6 +17,11 @@ module FormsLab
       
       params['pirates']['ships'].each do |ship_data|
         @ships = Ship.new(ship_data["name"], ship_data["type"], ship_data["booty"])
+      end
+        
+        @ships = Ships.all
+        
+        erb :'pirates/show'
     end
 
   end
